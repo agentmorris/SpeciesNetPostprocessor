@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SpeciesNetPostprocessor.Cli/SpeciesNetPostprocessor.Cli.csproj" />
+    <Project Path="src/SpeciesNetPostprocessor.Core/SpeciesNetPostprocessor.Core.csproj" />
+    <Project Path="src/SpeciesNetPostprocessor/SpeciesNetPostprocessor.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SpeciesNetPostprocessor</RootNamespace>
+    <AssemblyName>SpeciesNetPostprocessor</AssemblyName>
+    <AssemblyTitle>SpeciesNet Postprocessor</AssemblyTitle>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationUseCompatibleTextRendering>false</ApplicationUseCompatibleTextRendering>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpeciesNetPostprocessor.Core\SpeciesNetPostprocessor.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ApplicationIcon sets the .exe's icon; the window icon is loaded from this embedded copy -->
+    <EmbeddedResource Include="app.ico" LogicalName="SpeciesNetPostprocessor.app.ico" />
+  </ItemGroup>
+
+</Project>

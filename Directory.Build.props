@@ -1,0 +1,15 @@
+<Project>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Product>SpeciesNet Postprocessor</Product>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <!-- Embedded symbols give line numbers in stack traces (which end up in log files) without separate .pdb files -->
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+</Project>
